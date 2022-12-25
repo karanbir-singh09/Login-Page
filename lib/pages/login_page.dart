@@ -16,7 +16,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.grey[100],
       body: SafeArea(
         child: Center(
           child: Column(
@@ -33,11 +33,11 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 50),
 
               // welcome back, you've been missed!
-              Text(
-                'Welcome back you\'ve been missed!',
+              const Text(
+                'Welcome back',
                 style: TextStyle(
-                  color: Colors.grey[700],
-                  fontSize: 16,
+                  color: Colors.black,
+                  fontSize: 18,
                 ),
               ),
 
@@ -69,7 +69,7 @@ class LoginPage extends StatelessWidget {
                   children: [
                     Text(
                       'Forgot Password?',
-                      style: TextStyle(color: Colors.grey[600]),
+                      style: TextStyle(color: Colors.grey[800]),
                     ),
                   ],
                 ),
@@ -92,20 +92,20 @@ class LoginPage extends StatelessWidget {
                     Expanded(
                       child: Divider(
                         thickness: 0.5,
-                        color: Colors.grey[400],
+                        color: Colors.grey[800],
                       ),
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 10.0),
                       child: Text(
                         'Or continue with',
-                        style: TextStyle(color: Colors.grey[700]),
+                        style: TextStyle(color: Colors.grey[900]),
                       ),
                     ),
                     Expanded(
                       child: Divider(
                         thickness: 0.5,
-                        color: Colors.grey[400],
+                        color: Colors.grey[800],
                       ),
                     ),
                   ],
@@ -135,8 +135,8 @@ class LoginPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'Not a member?',
-                    style: TextStyle(color: Colors.grey[700]),
+                    'Not a User?',
+                    style: TextStyle(color: Colors.grey[800]),
                   ),
                   const SizedBox(width: 4),
                   const Text(
